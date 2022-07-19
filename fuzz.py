@@ -1,7 +1,7 @@
 
 import sys,socket 
-address = '127.0.0.1'
-port = 9999
+address = 'host ip'#string
+port = 1337 #host port int
 buffer = ['\x41']
 counter = 100
 while len(buffer)<= 10:
